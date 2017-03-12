@@ -1,12 +1,12 @@
-# _{Ping Pong}_
+# _Ping Pong_
 
-#### _{A program that creates a list of numbers based on user input, replacing some numbers with "ping" and "pong" as described below.}, {Date of current version}_
+#### _A program that creates a list of numbers based on user input, replacing some numbers with "ping" and "pong" as described below.}, {Date of current version_
 
-#### By _**{List of contributors}**_
+#### By _**Marilyn Carlin**_
 
 ## Description
 
-_{A website created with HTML, CSS, and jQuery where a user can input a number and receive an inclusive count from 1-input, where numbers divisible by 3 are replaced with "ping," numbers divisible by 5 are replaced with "pong," and those divisible by 15 with "ping-pong."}_
+_A website created with HTML, CSS, and jQuery where a user can input a number and receive an inclusive count from 1-input, where numbers divisible by 3 are replaced with "ping," numbers divisible by 5 are replaced with "pong," and those divisible by 15 with "ping-pong."_
 
 ## Setup/Installation Requirements
 
@@ -17,15 +17,15 @@ _{A website created with HTML, CSS, and jQuery where a user can input a number a
 
 ## Known Bugs
 
-_{Program does not currently run as written. Console reports that "parseInt is not a function" which implies a syntax or other error in the front-end code.}_
+_Program does not currently run as written. Console reports that "parseInt is not a function" which implies a syntax or other error in the front-end code._
 
 ## Support and contact details
 
-_{Email marilyn.s.carlin@gmail.com with any questions, comments, or concerns.}_
+_Email marilyn.s.carlin@gmail.com with any questions, comments, or concerns._
 
 ## Technologies Used
 
-_{HTML, CSS, jQuery, Bootstrap}_
+_HTML, CSS, jQuery, Bootstrap_
 
 ### License
 
