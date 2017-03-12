@@ -13,12 +13,24 @@ var pingPong = function(userInput) {
     } else {
        numberArray.push(number);
     };
-
+    
+    return numberArray;
   };
 // console.log(numberArray);
 };
 
 
-
-
 // front-end logic
+$(document).ready(function() {
+  $("form#number-count").submit(function(event) {
+    event.preventDefault();
+
+    var userInput = $("#input").val();
+    console.log(userInput);
+    var output = pingPong(userInput);
+    console.log(output);
+    // $("#result").text(output);
+
+
+  });
+});
