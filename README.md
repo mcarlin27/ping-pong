@@ -1,6 +1,6 @@
 # _Ping Pong_
 
-#### _A program that creates a list of numbers based on user input, replacing some numbers with "ping" and "pong" as described below.}, {Date of current version_
+#### _A program that creates a list of numbers based on user input, replacing some numbers with "ping" and "pong" as described below. 3/11/17_
 
 #### By _**Marilyn Carlin**_
 
