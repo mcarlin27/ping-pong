@@ -4,21 +4,22 @@ var pingPong = function(userInput) {
   for (var number = 1; number <= userInput; number++) {
     numberArray.push(number);
   }
+  var pingPongArray = [];
 numberArray.forEach(function(number) {
-  if (userInput = NaN) {
+  if (number === NaN) {
       alert("Please enter a number.");
-    } if ((userInput %15) === 0) {
-      numberArray.push("ping");
-    } else if ((userInput % 3) === 0) {
-      numberArray.push("pong");
-    } else if ((userInput % 5) === 0) {
-      numberArray.push("ping-pong");
+    } if ((number %15) === 0) {
+      pingPongArray.push("ping-pong");
+    } else if ((number % 5) === 0) {
+      pingPongArray.push("pong");
+    } else if ((number % 3) === 0) {
+      pingPongArray.push("ping");
     } else {
-       numberArray.push(number);
+       pingPongArray.push(number);
     };
   });
-  return numberArray;
-// console.log(numberArray);
+  return pingPongArray;
+// console.log(pingPongArray);
 };
 
 
@@ -27,13 +28,12 @@ $(document).ready(function() {
   $("#number-count").submit(function(event) {
     event.preventDefault();
 
-    var userInput = parseInt($("inout#input")).val();
-    // console.log(userInput);
+    var userInput = parseInt($("input#input").val());
     var output = pingPong(userInput);
-    console.log(output);
 
-    ("#result").text(output);
-
+    $("#result").text(output);
+    $("#result").show();
+    
 
   });
 });
