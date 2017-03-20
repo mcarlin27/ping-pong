@@ -33,7 +33,7 @@ $(document).ready(function() {
 
     $("#result").text(output);
     $("#result").show();
-    
+
 
   });
 });
